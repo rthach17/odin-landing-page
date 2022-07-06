@@ -35,12 +35,20 @@ body {
 
 .header-top {
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
   flex: 1;
+}
+
+.header-links {
+  list-style: none;
+  justify-content: space-between;
+  flex: 1;
+  gap: 20px;
 }
 
 .header-body {
@@ -50,12 +58,6 @@ body {
 
 .hero {
   align-items: flex-start;
-}
-
-.header-links {
-  list-style: none;
-  justify-content: space-between;
-  flex: 1;
 }
 
 .header img {
