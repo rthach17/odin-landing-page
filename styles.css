@@ -20,6 +20,8 @@ body {
 }
 
 .header-top,
+.header-body,
+.header-links,
 .info-images,
 .links,
 .signup {
@@ -31,13 +33,33 @@ body {
   padding: 0 150px;
 }
 
+.header-top {
+  justify-content: space-between;
+}
+
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
+  flex: 1;
 }
 
-.header .links {
+.header-body {
+  padding: 100px 0;
+  justify-direction: space-between;
+}
+
+.hero {
+  align-items: flex-start;
+}
+
+.header-links {
   list-style: none;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.header img {
+  flex: 1;
 }
 
 .header a {
