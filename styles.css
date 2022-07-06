@@ -1,1 +1,66 @@
 /* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.info,
+.quote,
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top,
+.info-images,
+.links {
+  display: flex;
+}
+
+.header .links {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-subtext {
+  color: #E5E7EB;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.signup {
+  background-color: #3882F6;
+}
+
+
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+}
