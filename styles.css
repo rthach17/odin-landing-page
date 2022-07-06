@@ -11,14 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header,
-.hero,
-.info,
-.quote {
-  display: flex;
-  flex-direction: column;
-}
-
 .header-top,
 .header-body,
 .header-links,
@@ -27,6 +19,16 @@ body {
 .signup {
   display: flex;
 }
+
+.header,
+.hero,
+.info,
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Section */
 
 .header {
   background-color: #1F2937;
@@ -58,6 +60,8 @@ body {
 
 .hero {
   align-items: flex-start;
+  flex: 0 1 45%;
+  gap: 5px;
 }
 
 .header img {
@@ -85,9 +89,17 @@ body {
   color: #E5E7EB;
 }
 
+.hero .button {
+  /* TODO */
+}
+
+/* Information Section */
+
 .info-images img {
   width: 100px;
 }
+
+/* Quote Section */
 
 .quote {
   background-color: #E5E7EB;
@@ -99,6 +111,8 @@ body {
   font-size: 36px;
 }
 
+/* Call to Action Section */
+
 .signup {
   background-color: #3882F6;
   color: white;
@@ -108,6 +122,8 @@ body {
   background-color: #3882F6;
   color: white;
 }
+
+/* Footer */
 
 .footer {
   background-color: #1F2937;
