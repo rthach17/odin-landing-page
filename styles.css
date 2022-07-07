@@ -28,6 +28,16 @@ body {
   flex-direction: column;
 }
 
+.button {
+  background-color: #3882F6;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+
 /* Header Section */
 
 .header {
@@ -89,10 +99,6 @@ body {
   color: #E5E7EB;
 }
 
-.hero .button {
-  /* TODO */
-}
-
 /* Information Section */
 
 .info-images img {
@@ -118,9 +124,8 @@ body {
   color: white;
 }
 
-.button {
-  background-color: #3882F6;
-  color: white;
+.signup .button {
+  border: 2px solid white;
 }
 
 /* Footer */
