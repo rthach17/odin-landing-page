@@ -112,8 +112,7 @@ body {
 .info-images {
   justify-content: center;
   gap: 30px;
-  margin: 0 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .info-images .image {
