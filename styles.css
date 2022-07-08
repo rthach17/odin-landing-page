@@ -104,6 +104,9 @@ body {
 
 .info-header {
   text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 30px 0;
 }
 
 .info-images img {
