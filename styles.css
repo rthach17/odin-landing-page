@@ -78,7 +78,8 @@ body {
 .hero {
   justify-content: center;
   align-items: flex-start;
-  flex: 0 1 300px;
+  flex: 0 1 440px;
+  min-width: 300px;
   gap: 10px;
 }
 
