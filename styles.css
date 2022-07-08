@@ -128,16 +128,21 @@ body {
 
 .quote {
   background-color: #E5E7EB;
+  padding: 150px 250px;
+  align-items: center;
+  gap: 5px;
 }
 
 .quote-text {
   font-style: italic;
   font-weight: 300;
   font-size: 36px;
+  min-width: 400px;
 }
 
 .quote-author {
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: bolder;
   align-self: flex-end;
 }
 
