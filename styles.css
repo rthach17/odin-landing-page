@@ -136,6 +136,11 @@ body {
   font-size: 36px;
 }
 
+.quote-author {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
 /* Call to Action Section */
 
 .signup {
