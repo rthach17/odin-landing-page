@@ -109,8 +109,19 @@ body {
   margin: 30px 0;
 }
 
+.info-images {
+  justify-content: center;
+  gap: 30px;
+  margin: 0 100px;
+  margin-bottom: 50px;
+}
+
+.info-images .image {
+  flex: 0 1 150px;
+}
+
 .info-images img {
-  width: 100px;
+  max-width: 150px;
 }
 
 /* Quote Section */
