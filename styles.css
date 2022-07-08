@@ -102,6 +102,10 @@ body {
 
 /* Information Section */
 
+.info-header {
+  text-align: center;
+}
+
 .info-images img {
   width: 100px;
 }
