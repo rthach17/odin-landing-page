@@ -151,10 +151,24 @@ body {
 .signup {
   background-color: #3882F6;
   color: white;
+  margin: 100px 150px;
+  padding: 40px 70px;
+  border-radius: 10px;
+  min-width: 600px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 100px;
+}
+
+
+.signup-message h4 {
+  font-size: 20px;
 }
 
 .signup .button {
   border: 2px solid white;
+  flex: none;
 }
 
 /* Footer */
